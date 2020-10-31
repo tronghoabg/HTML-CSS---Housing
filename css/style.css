@@ -225,3 +225,76 @@ nav a {
 .portfolio__content img {
   width: 100%;
 }
+
+/* SUBCRICE */
+
+.subscribe {
+  background-color: #22cdcd;
+  text-align: center;
+  padding: 70px 0;
+}
+.subcribe__content {
+  width: 60%;
+  margin: 0 auto;
+}
+.subcribe__content p{
+  color: white;
+  font-size: 0.9rem;
+}
+.subcribe__content  input {
+  padding: 10px 15px; 
+  width: 60%;
+  border: none;
+  margin: 20px 20px;
+  outline: none;
+  font-weight: bold;
+}
+.subcribe__content  button {
+  color: white;
+  font-size: 1.3rem;
+  padding: 10px 25px ;
+} 
+
+/* OUTGENTS */
+.outagents {
+  text-align: center;
+  padding: 70px 0;
+}
+.outgents__content {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outgents__content  img {
+  width: 100%;
+  margin: 0;
+}
+.outgents__item {
+  margin: 0 10px;
+}
+.outgents__detail {
+  background-color: #363636;
+  color: white;
+  padding: 10px 10px;
+}
+.outgents__detail h3 {
+  color: #22cdcd;
+}
+.outgent__icon i{
+
+  width: 30px;
+  height: 30px;
+  border: 2px solid #fff;
+  line-height: 30px;
+  margin: 10px 10px 0 10px
+}
+.contact__map {
+  background: #BBBBBB;
+  padding: 20px 20px;
+  border: 2px solid #2DB7DD;
+}
+.contact iframe {
+  width: 100%;
+}
