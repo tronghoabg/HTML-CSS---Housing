@@ -26,13 +26,16 @@ button {
   border: none;
   padding: 10px 15px;
   font-weight: 700;
+  cursor: pointer;
 }
 /* HEADER */
 header {
+  position: fixed;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1c2021;
+  background-color: rgba(28, 32, 33, .7);
   color: white;
   padding: 10px 10px;
 }
@@ -44,8 +47,15 @@ nav li {
   margin: 0 15px;
   padding: 10px 15px;
   border-bottom: 1px solid #fff;
+  cursor: pointer;
 }
-nav a {
+nav ul .item:hover a{
+  color: #22cdcd;
+
+}
+
+
+nav li a {
   font-size: 1rem;
   text-decoration: none;
   color: white;
